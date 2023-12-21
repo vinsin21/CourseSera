@@ -243,3 +243,80 @@ html {
     width: 90%;
     height: 95%;
 }
+
+.page3 {
+    min-height: 100vh;
+    width: 100%;
+    /* background-color: salmon; */
+    padding: 8vh 12vh;
+}
+
+.page3>h1 {
+    color: #262626;
+}
+
+.page3-sub-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+
+}
+
+.page3-sub-heading p {
+    width: 68%;
+    color: #59595A;
+}
+
+.page3-sub-heading button {
+    font-size: 0.9vw;
+    padding: 0.8vw 1.2vw;
+    border-radius: 4px;
+    border: none;
+    background-color: #FCFCFD;
+}
+
+.page3-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    justify-content: space-evenly;
+    margin-top: 6vw;
+    gap: 2vw;
+}
+
+.page3-card {
+    width: 25vw;
+    height: 38vh;
+    background: var(--Absolute-White, #FFF);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 1vw 1.5vw;
+}
+
+.page3-card h1 {
+    text-align: end;
+    font-size: 3vw;
+    color: #262626;
+}
+
+.page3-card .card-detail h2 {
+    color: #333333;
+    margin-bottom: 1vw;
+}
+
+.page3-card .card-detail p {
+    color: #4C4C4D;
+    width: 90%;
+}
+
+.page3-card .card-img {
+    text-align: end;
+    /* background-color: green; */
+}
+
+.page3-card img {
+    width: 2vw;
+}
