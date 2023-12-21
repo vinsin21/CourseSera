@@ -13,6 +13,7 @@ html {
     width: 100%;
     height: 100%;
     font-family: Be Vietnam Pro;
+    background-color: #F7F7F8;
 
 }
 
@@ -121,7 +122,7 @@ html {
 /* Page1 */
 
 .page1 {
-    min-height: 80vh;
+    min-height: 66vh;
     width: 100%;
     /* background-color: crimson; */
     display: flex;
@@ -194,4 +195,37 @@ html {
 
 .yellow {
     color: #FF9500;
+}
+
+/* companies-banner */
+.companies-banner {
+    /* background-color: slateblue; */
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner-container {
+    width: 90%;
+    height: 20vh;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.banner-container img {
+    height: auto;
+    width: 7vw;
+
+}
+
+.banner-card {
+    border-right: 1px solid #4C4C4D;
+    /* background-color: red; */
+    padding: 1vw 2vw;
 }

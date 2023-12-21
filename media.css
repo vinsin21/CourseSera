@@ -95,7 +95,7 @@
     /* Page1 */
 
     .page1 {
-        min-height: 60vh;
+        min-height: 40vh;
         width: 100%;
         /* background-color: crimson; */
         display: flex;
@@ -169,6 +169,59 @@
         color: #262626;
         font-weight: 500;
         padding: 3.7vw 5vw;
+    }
+
+    /* companies-banner */
+    .companies-banner {
+        /* background-color: slateblue; */
+        min-height: 20vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .banner-container {
+        width: 60%;
+        height: 9vh;
+        background-color: white;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    .banner-container :nth-child(2) {
+        display: none;
+    }
+
+    .banner-container :nth-child(3) {
+        display: none;
+    }
+
+    .banner-container :nth-child(4) {
+        display: none;
+    }
+
+    .banner-container :nth-child(5) {
+        display: none;
+    }
+
+    .banner-container :nth-child(6) {
+        display: none;
+    }
+
+    .banner-container img {
+        height: auto;
+        width: 20vw;
+
+    }
+
+    .banner-card {
+        border-right: 0px solid #4C4C4D;
+        /* background-color: red; */
+        padding: 0.2vw 1vw;
     }
 
 
