@@ -294,8 +294,8 @@
     }
 
     .page3-card {
-        width: 95%;
-        height: 38vh;
+        min-width: 95%;
+        min-height: 38vh;
         background: var(--Absolute-White, #FFF);
         display: flex;
         flex-direction: column;
@@ -328,6 +328,104 @@
 
     .page3-card img {
         width: 7vw;
+    }
+
+
+
+    .page4 {
+        min-height: 100vh;
+        width: 100%;
+        /* background-color: salmon; */
+        padding: 13vw 12vw;
+    }
+
+    .page4 h1 {
+        font-size: 5vmax;
+        /* background-color: green; */
+    }
+
+    .page4 .sub-heading {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+        margin-top: 2vw;
+    }
+
+    .page4 .sub-heading p {
+        width: 100%;
+        color: #59595A;
+        text-align: start;
+    }
+
+    .page4 .sub-heading button {
+        font-size: 2.5vh;
+        padding: 1.7vw 3vw;
+        border-radius: 4px;
+        border: none;
+        border-radius: 8px;
+        background-color: #FCFCFD;
+    }
+
+
+
+    .page4-card-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4vh;
+        margin-top: 5vw;
+    }
+
+    .page4-card {
+        min-height: 75vmin;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.651);
+        padding: 2vw;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 1.6vh;
+
+    }
+
+    .page4-card .meta-data {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .meta-data .course-dets {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .meta-data .course-dets p {
+        color: #4C4C4D;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.354);
+        padding: 1vmin 2vmin;
+    }
+
+    .meta-data h5 {
+        font-size: 1vw;
+    }
+
+    .page4-card h2 {
+        font-size: 3.5vmin;
+    }
+
+    .page4-card>p {
+        color: #4C4C4D;
+        font-size: 2.2vmin;
+    }
+
+    .page4-card button {
+        width: 100%;
+        font-size: 3vmin;
+        border: none;
+        border-radius: 7px;
+        padding: 2vmin;
     }
 
 }
